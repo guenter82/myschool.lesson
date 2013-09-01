@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 <link rel="shortcut icon" type="image/png" href="./../img/icon32/health.png" />
+	<link rel="stylesheet" href="./../css/guenter-theme/jquery-ui-1.10.3.custom.css"/>
+	<script src="../js/jquery-1.9.1.js"></script>
+	<script src="../js/jquery-ui-1.10.3.custom.js"></script>
+	<script src="../js/plugin/jquery.intoViewport.min.js"></script>
+	<script src="../js/plugin/jquery.runner-min.js"></script>
+	<script src="../js/test-data.js"></script>
+	<script src="../js/memorytest.js"></script>
+	<script src="../js/main-helper.js"></script>
+	<script src="../js/main.js"></script>
+	<link rel="stylesheet" href="./../css/memorytest.css"/>
+	<script>
+	$(function() {
+	});
+	</script>
+	<title>Untertest Gedächtnis &amp; Merkfähigkeit</title>
+</head>
+<body>
+		<h1>Untertest Gedächtnis &amp; Merkfähigkeit (Vorlage von MedUni Wien)</h1>
+		<div class="timer">
+			<p><a class="restarttest">Neue Test Gruppe</a></p>
+			<p>Vebleibende Zeit: <span id="runner"></span></p>
+			<p><a class="startquestion">Beginne mit den Fragen</a></p>
+			<p><a class="check">Überprüfe alle Antworten</a></p>
+		</div>		
+		
+		<div id="result">
+			<h2>Dein Ergebnis:</h2>
+		</div>
+		
+		<h2 id="h-passes">Die 8 Allergieausweise</h2>
+		<div id="tabs">
+			<ul>
+				<li><a href="#tab-1">Pass 1</a></li>
+				<li><a href="#tab-2">Pass 2</a></li>
+				<li><a href="#tab-3">Pass 3</a></li>
+				<li><a href="#tab-4">Pass 4</a></li>
+				<li><a href="#tab-5">Pass 5</a></li>
+				<li><a href="#tab-6">Pass 6</a></li>
+				<li><a href="#tab-7">Pass 7</a></li>
+				<li><a href="#tab-8">Pass 8</a></li>
+			</ul>
+			<div id="tab-1">
+				<div class="pass"></div>
+			</div>
+			<div id="tab-2">
+				<div class="pass"></div>
+			</div>
+			<div id="tab-3">
+				<div class="pass"></div>
+			</div>
+			<div id="tab-4">
+				<div class="pass"></div>
+			</div>
+			<div id="tab-5">
+				<div class="pass"></div>
+			</div>
+			<div id="tab-6">
+				<div class="pass"></div>
+			</div>
+			<div id="tab-7">
+				<div class="pass"></div>
+			</div>
+			<div id="tab-8">
+				<div class="pass"></div>
+			</div>
+			
+		</div>
+		
+		<h2 id="h-questions"></h2>
+		<div id="questions">
+		</div>
+		
+		<div id="dlg" title="Bist du bereit?">
+			<p>Du solltest ca. 15 Minuten etwas anderes machen bevor du mit den Fragen beginnst, da zwischen der Lern- und Antwortpahse auch beim echten Test andere Aufgaben zu lösen sind.</p>
+			<p>Wenn du diesen Dialog schließt hast dann 20 Minuten Zeit um die Fragen zu beantworten.</p>
+		</div>
+	
+	
+	<h2>Debug Message:</h2>
+	<div class="debug">no debug message</div>
+</body>
+</html>
