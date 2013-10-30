@@ -1,0 +1,80 @@
+body {
+	line-height: 100%;
+	font-size: 12px;
+	width: 100%; 
+	margin: 0px; 
+	padding: 0px; 
+	padding-left: 30px;
+	text-align: left;
+}
+
+div.center {
+	width: 99%;
+	
+	margin: 0px; 
+	padding: 0px; 
+	overflow: hidden;
+	text-align: center;
+	
+}
+
+span.spacing {
+	letter-spacing: 4px;
+}
+
+span.bold {
+	font-weight: bold;
+}
+
+div#tabs {
+	width: 650px;	
+}
+
+div.module {
+	width: 550px;
+	
+	border-color: rgb(220,220,225);
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 25px;
+}
+
+div.module div.module-header {
+	margin: 15px;
+	margin-left: 30px;
+	margin-right: 70px;
+	background-image: url(./../img/icon32/health.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	
+	line-height: 130%;
+	font-size: 24px;
+	font-variant: small-caps;
+	
+}
+div.module div.module-data {
+	background-color: rgb(240,240,245);
+	border-color: rgb(220,120,125);
+	border-width: 3px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	
+	margin-bottom: 40px;
+}
+
+img {
+	width: 90px;
+	height: 135px;
+}
+
+div.module div.module-data img {
+	margin: 20px;
+	float: left;
+}
+
+
+.layout-right {
+	float: right;
+}
+
+
