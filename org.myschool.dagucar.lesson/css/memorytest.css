@@ -1,0 +1,137 @@
+body {
+	line-height: 100%;
+	font-size: 12px;
+	width: 100%; 
+	margin: 0px; 
+	padding: 0px; 
+	padding-left: 30px;
+	text-align: left;
+}
+
+div.center {
+	width: 99%;
+	
+	margin: 0px; 
+	padding: 0px; 
+	overflow: hidden;
+	text-align: center;
+	
+}
+
+span.spacing {
+	letter-spacing: 4px;
+}
+
+span.bold {
+	font-weight: bold;
+}
+
+div#tabs {
+	width: 650px;	
+}
+
+div.pass {
+	width: 550px;
+	
+	border-color: rgb(220,220,225);
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 25px;
+}
+
+div.pass div.pass-header {
+	margin: 15px;
+	margin-left: 30px;
+	margin-right: 70px;
+	background-image: url(./../img/icon32/health.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	
+	line-height: 130%;
+	font-size: 24px;
+	font-variant: small-caps;
+	
+}
+div.pass div.pass-data {
+	background-color: rgb(240,240,245);
+	border-color: rgb(220,120,125);
+	border-width: 3px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	
+	margin-bottom: 40px;
+}
+
+img {
+	width: 90px;
+	height: 135px;
+}
+
+div.pass div.pass-data img {
+	margin: 20px;
+	float: left;
+}
+
+div#result {
+	width: 500px;
+	
+	line-height: 120%;
+	font-size: 16px;
+	margin: 50px;
+	padding: 30px;
+	
+	border-color: #90BFA5;
+	border-width: 6px;
+	border-style: outset;
+	border-radius: 25px;
+}
+
+div#questions {
+	width: 750px;
+}
+
+div.answer input {
+	width: 20px;
+}
+
+.layout-right {
+	float: right;
+}
+
+
+
+/* Timer start */
+
+div.timer {
+	width: 650px;
+	margin: 10px;
+	padding: 15px;
+	border: 2px;
+	border-color: activeborder;
+	border-style: outset;
+	text-align: center;
+	font-size: 13px;
+	line-height: 13px;
+}
+
+div.timer span#runner {
+	background-color: rgb(240,250,255);
+	border: 1px;
+	border-color: grey;
+	border-style: inset;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: rgb(100,200,250);
+}
+
+div.timer a {
+	font-size: 16px;
+	line-height: 16px;
+	text-decoration: underline;
+	color: rgb(90,170,250);
+}
+
+/* Timer end */

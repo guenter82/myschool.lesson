@@ -1,0 +1,410 @@
+Hier sind die Daten für die Ausweise.
+Eine Gruppe besteht aus 8 Datensätzen
+
+
+Namen: (Pro Datensatz 1 Name, pro Gruppe keine 2 gleichen Namen)
+KHAN
+GANGAI
+LEE
+CHAN
+REYES
+SIN
+MIURA
+GUO
+SARMA
+LEVIN
+VARGAS
+SAHIN
+BALLA
+AIGNER
+DUMONT
+HADZIC
+FIALA
+POULSEN
+MÄGI
+MÄDELÄ
+EKLUND
+AVRAMIDIS
+LAKATOS
+MARINO
+VELLA
+HAUGEN
+SANCHEZ
+WILSON
+MACDONALD
+RODRIGUEZ
+SMITH
+JOHNSON
+OLIVIERA
+ROJAS
+BACHINGER
+PAIRHUBER
+MALLINGER
+ÖLLER
+HAUSER
+HOFER
+POMALIS
+NOWAK
+MÜHLBERGER
+KRONLACHNER
+EIGL
+DOPPLMAIR
+DÖRFLER
+STUMPTNER
+REICHL
+ROCK
+ROTT
+SOIBER
+LEINER
+LEITNER
+PÜHRINGER
+PUMBERGER
+PULITSCH
+SACHFFER
+TUMMELSHAMMER
+THALLINGER
+ANGERHOFER
+ANZENGRUBER
+STRAsSER
+EDLINGER
+ECKER
+AHMET
+MUHAMMED
+SPICKLER
+SÖLLNER
+LINDORFER
+CLAASSEN
+DIATSCHEK
+NELBÖCK
+NEUMÜLLER
+NEUWIRTH
+NOVOTNY
+ILSMAR
+FANZ
+MEDIZI
+TOZZI
+TESTA
+FELICE
+DEMONICO
+PELLICANO
+TREMANTO
+DONNA
+ANGELOSANTO
+SCIUTO
+BORGOGNO
+ROMOLO
+BERTANI
+HOLZER
+HAIDER
+KOLLER
+RIEGLER
+MAIR
+LEHNER
+WINTER
+WIMMER
+GRUBERPICHLER
+MÜLLER
+STEINER
+BERGER
+EDER
+BAUER
+FUCHS
+SCHMID
+WINKLER
+WEBER
+SCHWARZ
+SCHNEIDER
+FISCHER
+SCHMIDT
+WOLF
+HAAS
+BINDER
+
+
+Geburtstag: (Pro Datensatz 1 Geburtstag, innerhalb 1 Gruppe können mehr am gleichen Tag Geb. haben)
+15. Jänner
+3. Jänner
+8. Jänner
+24. Jänner
+31. Jänner
+1. Jänner
+2. Jänner
+12. Jänner
+9. Jänner
+20. Jänner
+2. Februar
+5. Februar
+7. Februar
+17. Februar
+18. Februar
+20. Februar
+22. Februar
+28. Februar
+6. Februar
+11. Februar
+1. März
+23. März
+14. März
+8. März
+9. März
+11. März
+13. März
+30. März
+15. März
+10. März
+8. April
+9. April
+12. April
+21. April
+22. April
+28. April
+2. April
+4. April
+15. April
+30. April
+31. Mai
+24. Mai
+20. Mai
+5. Mai
+9. Mai
+11. Mai
+15. Mai
+6. Mai
+19. Mai
+23. Mai
+6. Juni
+8. Juni
+18. Juni
+20. Juni
+23. Juni
+5. Juni
+14. Juni
+28. Juni
+29. Juni
+2. Juni
+1. Juli
+17. Juli
+18. Juli
+15. Juli
+3. Juli
+4. Juli
+22. Juli
+19. Juli
+30. Juli
+24. Juli
+4. August
+5. August
+12. August
+11. August
+23. August
+22. August
+31. August
+9. August
+10. August
+20. August
+1. September
+3. September
+4. September
+16. September
+26. September
+29. September
+27. September
+28. September
+2. September
+12. September
+6. Oktober
+9. Oktober
+10. Oktober
+14. Oktober
+16. Oktober
+18. Oktober
+21. Oktober
+26. Oktober
+27. Oktober
+28. Oktober
+1. November
+4. November
+7. November
+11. November
+12. November
+14. November
+18.  November
+20. November
+22. November
+26. November
+10. Dezember
+2. Dezember
+7. Dezember
+9. Dezember
+18. Dezember
+25. Dezember
+26. Dezember
+30. Dezember
+24. Dezember
+13. Dezember
+
+Medikamenteneinnahme: (Pro Datensatz 1 Antwort, pro Gruppe mehrmals ja oder nein)
+ja
+nein
+
+Blutgruppe: (Pro Datensatz 1 Blutgruppe, pr Gruppe mehrmals die unterschiedlichen Blutgruppen)
+A
+B
+AB
+0
+
+Bekannte Allergien: (Pro Datensatz max. 3, natürlich kann "Keine" nur allein vorkommen, innerhalb der Gruppen können Personen gleiche Allergien haben )
+Keine
+Tomaten
+Hunde
+Hausstaub
+Katzen
+Gräser
+Heuschnupfen
+Chlor
+Orangen
+Zitronen
+Pollen
+Bienen
+Getreide
+Nüsse
+Schimmelpilz
+
+Ausweisnummern: (Pro Datensatz 1 Nummer, innerhalb der Gruppe keine Nummer 2 mal)
+56951
+84593
+56982
+54723
+15698
+25647
+93241
+65789
+15478
+65896
+32051
+20351
+20013
+56932
+47152
+63985
+89547
+65841
+65998
+12504
+12658
+68425
+32014
+69584
+94863
+22658
+56985
+41526
+32015
+41587
+25967
+14520
+36521
+32569
+69547
+78542
+12548
+74859
+54789
+23698
+65897
+41256
+10235
+78569
+45792
+31547
+64775
+98547
+54125
+78965
+15447
+45871
+54788
+11541
+78112
+32156
+25413
+14584
+59874
+65123
+32514
+15563
+14523
+51421
+25145
+15871
+25446
+15478
+54781
+34781
+34122
+
+Ausstellungsland: (Pro Datensatz 1 Land, innerhalb der Gruppe können Ausstellungsländer beliebig oft vorkommen)
+Österreich
+Frankreich
+Spanien
+Tschechien
+Italien
+Kroatien
+Deutschland
+Albanien
+Bulgarien
+Dänemark
+Estland
+Finnland 
+Schweden
+Norwegen
+Monaco
+Montenegro
+Polen
+Portugal
+Litauen
+Malta
+Niederlande
+Island
+Griechenland
+Belgien
+Türkei
+Tschechien
+Ungarn
+Ukraine
+Schweiz
+Slowenien
+Rumänien
+Mazedonien
+Afghanistan
+Albanien
+Andorra
+Bahamas
+Barbados
+Belgien
+Brasilien
+Chile
+China
+Dänemark
+Ecuador
+Großbritannien
+Haitia
+Indien
+Iran
+Irland
+Jamaika
+Japan
+Kamerun 
+Laos
+
+
+
+
+
+
+
+
+
+
+
+
