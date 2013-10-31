@@ -1,5 +1,5 @@
 body {
-	line-height: 100%;
+	line-height: 120%;
 	font-size: 12px;
 	width: 100%; 
 	margin: 0px; 
@@ -27,54 +27,62 @@ span.bold {
 }
 
 div#tabs {
-	width: 650px;	
+	width: 850px;	
 }
-
 div.module {
-	width: 550px;
-	
-	border-color: rgb(220,220,225);
-	border-width: 2px;
-	border-style: solid;
-	border-radius: 25px;
+	width: 750px;
 }
 
-div.module div.module-header {
-	margin: 15px;
-	margin-left: 30px;
-	margin-right: 70px;
-	background-image: url(./../img/icon32/health.png);
-	background-position: right;
-	background-repeat: no-repeat;
-	
-	line-height: 130%;
-	font-size: 24px;
-	font-variant: small-caps;
+div.accordion {
 	
 }
-div.module div.module-data {
-	background-color: rgb(240,240,245);
-	border-color: rgb(220,120,125);
-	border-width: 3px;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	
-	margin-bottom: 40px;
+
+div.accordion ol {
+	list-style-type:lower-alpha;
 }
 
 img {
+	margin-left: 20px;
 	width: 90px;
 	height: 135px;
 }
 
-div.module div.module-data img {
-	margin: 20px;
-	float: left;
+/* java check */
+
+.javaactive {
+	width: 500px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 40px;
+	background-image: url(./../img/icon32/accept.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	
+	border-color: rgb(100,220,100);
+	border-width: 6px;
+	border-style: solid;
+	border-radius: 25px;
 }
+
+.javamissing {
+	width: 500px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	background-image: url(./../img/icon32/error.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	
+	border-color: rgb(220,100,100);
+	border-width: 6px;
+	border-style: solid;
+	border-radius: 25px;
+}
+
 
 
 .layout-right {
 	float: right;
 }
-
 
