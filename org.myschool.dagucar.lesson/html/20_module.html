@@ -22,49 +22,62 @@
 </head>
 <body>
 	<h2>Arbeitsaufträge</h2>
-	<div>
-		<div class="accordion">
-			<h2>1. DaguCar Steuerzentrale installieren</h2>
-			<div>
-				<div class="accordion">
-					<h2>a. Java Version kontrollieren</h2>
-					<div>
-						<p>Die DaguCar Steuerzentrale ist ein Java-Programm, du musst deshalb Java (1.6+) installiert haben.</p>
-	
-							<a href="#" class="checkjava">Suche jetzt nach Java ...</a>
-	
-							<div class="javaactive hide">
-								<p>Du hast eine passende Version von Java (JRE 1.6+) installiert.</p>
-								<p>Deine JREs: <span class="logjre"></span></p>
-							</div>
-							<div class="javamissing hide">
-								<p>Du hast KEINE passende Version von Java (JRE 1.6+) installiert.</p>
-								<p>Deine JREs: <span class="logjre"></span></p>
-								<a href="#" class="jreupdate">Installiere eine aktuelle Java Runtime Version (JRE)</a>
-							</div>
-							<div class="hide">
-								<script src="https://www.java.com/js/deployJava.js"></script>
-							</div>
-					</div>
+	<div class="accordion">
+		<h2>1. DaguCar Steuerzentrale installieren</h2>
+		<div>
+			<div class="accordion">
+				<h2>a. Java Version kontrollieren</h2>
+				<div>
+					<p>Die DaguCar Steuerzentrale ist ein Java-Programm, du musst deshalb Java (1.6+) installiert haben.</p>
+
+						<a href="#" class="checkjava">Suche jetzt nach Java ...</a>
+
+						<div class="javaactive hide">
+							<p>Du hast eine passende Version von Java (JRE 1.6+) installiert.</p>
+							<p>Deine JREs: <span class="logjre"></span></p>
+						</div>
+						<div class="javamissing hide">
+							<p>Du hast KEINE passende Version von Java (JRE 1.6+) installiert.</p>
+							<p>Deine JREs: <span class="logjre"></span></p>
+							<a href="#" class="jreupdate">Installiere eine aktuelle Java Runtime Version (JRE)</a>
+						</div>
+						<div class="hide">
+							<script src="https://www.java.com/js/deployJava.js"></script>
+						</div>
 				</div>
-				<div class="accordion">
-					<h2>b. DaguCar Steuerzentrale downloaden</h2>
-					<div>
-					</div>
+			</div>
+			<div class="accordion">
+				<h2>b. DaguCar Steuerzentrale downloaden</h2>
+				<div>
+					<h3>Steuerzentrale Version 1.0 Downloads</h3>
+					<ul style="list-style-type:none">
+						<li><a href="https://github.com/guenter82/myschool.dagucar/raw/master/org.myschool.dagucar.release/simulator.beginner/install-dagucar-zentrale.exe" target="_blank" type="application/octet-stream" class="dagucardownload">Windows </a></li>
+						<li><a href="https://github.com/guenter82/myschool.dagucar/raw/master/org.myschool.dagucar.release/simulator.beginner/dagucar-zentrale.jar" target="_blank" type="application/octet-stream" class="dagucardownload">Linux, OS X und Co.</a></li>
+					</ul>
 				</div>
-				<div class="accordion">
-					<h2>c. DaguCar Steuerzentrale installieren</h2>
-					<div>
-					</div>
+			</div>
+			<div class="accordion">
+				<h2>c. DaguCar Steuerzentrale installieren</h2>
+				<div>
+					<ul style="list-style-type:none">
+						<li>Windows: führe die heruntergeladene Installations-Datei (install-dagucar-zentrale.exe) aus. Das Programm wird unter C:\dagucar\zentrale installiert.</li>
+						<li>Linux und Co: entpacke das heruntergeladene Archiv (zip-dagucar-zentrale.zip) in ein Verzeichnis mit Schreibrechten.</li>
+					</ul>
 				</div>
 			</div>
 		</div>
-		
+	
 		<h2>2. Simulations-Steuerung kennen lernen</h2>
 		<div>
 			<div class="accordion">
 				<h2>a. DaguCar Steuerzentrale starten</h2>
 				<div>
+					<ul style="list-style-type:none">
+						<li>Windows: starte den Link <i>DaguCar-Steuerzentrale</i> aus dem Start-Menu oder doppel-klicke die Datei <i>C:\dagucar\zentrale\dagucar-zentrale.exe</i>.</li>
+						<li>Linux und Co: Kopiere die Datei C:\dagucar\zentrale\tools.jar in dein Java-Lib Verzeichnis (&lt;JRE-Home&gt;/lib) und doppel-klicke die Datei C:\dagucar\zentrale\dagucar-zentrale.jar</li>
+					</ul>
+					<p> Nun solltest du folgendes Bild sehen: </p>
+					<img src="..\img\dagucar-zentrale.PNG" width="713px" ></img>
 				</div>
 			</div>
 			<div class="accordion">
@@ -114,13 +127,6 @@
 				</div>
 			</div>
 		</div>
-	
-	
-	
-	
-	
-	
-	
 	
 	</div>
 	

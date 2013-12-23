@@ -16,4 +16,10 @@ $(document).ready(function() {
     $(".hide").toggle(false);
     $("#tabs").tabs();
     $(".accordion").accordion({collapsible:true, active:false, heightStyle: "content"});
+    
+//    $(".dagucardownload").click(function (evnt) {
+//    	$.ajax(
+//    			{url:"; async:false;}
+//    		);
+//    });
 }); 
