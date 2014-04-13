@@ -122,4 +122,3 @@ Me.countCorrectFields = function($inputs) {
 	return cnt;
 }; 
 
-
